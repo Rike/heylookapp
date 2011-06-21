@@ -1,64 +1,109 @@
 html {
-	background-color:#eeeeee;
-	padding:0;
-	margin-top:-8px;
+  background-color:#eeeeee;
+  padding:0;
+  margin-top:0px;
 }
 
 body {
-    color: black; background-color: white;
-    font-size: 100.01%;
-    font-family: Helvetica,Arial,sans-serif;
-	position: relative;
-	left: 20%;
-    text-align: center;  /* Zentrierung im Internet Explorer */
-	width:720px;
+  color: black;
+  font-size: 100.01%;
+  font-family: Helvetica,Arial,sans-serif;
+  position: relative;
+  text-align: center;  /* Zentrierung im Internet Explorer */
+  margin: 0;
 }
+body * {
+  text-align: left;
+}
+
 #header {
-    font-size: 0.9em;
-	color:#cc6677;
-    margin-left: 10px; 
-	margin-right: 0; 
-	width:70%;
-    text-align: left;
-	background-repeat: no-repeat; 
-	margin-bottom:100px;	
+  font-size: 0.9em;
+  color: #cc6677;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  margin-left:10px;
+  margin-right:10px;
+}
+#header h1 {
+  float: left;
+  margin: 0;
+  margin-bottom:20px;
 }
 
 #sub_header {
-	margin-top:30px;
+  clear: left;
 }
 
-
-div#language {
-	font-size: 1.1em;
-	font: Helvetica, Verdana, Arial, sans-serif;
-	color:#00ccbb;
-	width:20%;
-	margin-left:590px;
-	margin-top:-170px;
-	text-align:right;
-	text-decoration:bold;
+#headernav {
+  float: right;
+  width: 30%;
+  margin-top: 11px;
 }
 
-p#english{
- 	top:30px;
-	right:310px;
+#language {
+  font-size: 1.4em;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #99ffcc;
+  text-align: right;
+  text-decoration: bold;
+}
+#language a {
+  color: #99ffcc;
 }
 
-p#finnish{
- 	top:30px;
-	right:270px;
-	
+#sublines {
+  width:100%;
+  text-transform: uppercase;
+}
+#sublines p {
+  text-align: right;
+  font-size: 10px;
+}
+#subline1 {
+  color:#666666;
+}
+#subline2 {
+  color: #ff8888;
 }
 
-p#Space_Decor {
-	margin-left:590px;
-	text-align:right;
-	width:20%;
- 	top:60px;
-	right:290px;
-	color:#666666;
+#wrapper {
+  width: 760px;
+  margin: 0 auto;
+  background: white;
+  padding: 0 20px;
 }
+
+#sales_spaces {
+  float: left; 
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#weddings {
+  float: left; 
+  margin-left: 20px;
+}
+
+#pic_sublines {
+  clear: both;
+}
+
+#s_subline {
+}
+
+#w_subline {
+}
+
+p#Footer {
+  clear: both;
+  font-size: 0.83em;
+  color: #b9b9b9;
+  margin: 0 auto;   
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+}
+
 /*
 div#Wedding{
  style="position:absolute; top:220px; right:130px; clip:rect(0px, 350px, 250px, 0px);"
@@ -66,46 +111,25 @@ div#Wedding{
 
 
 #Page {
-	    text-align: left;    /* Seiteninhalt wieder links ausrichten */
-//	    margin: 0 auto;      /* standardkonforme horizontale Zentrierung */
-/*	    width: 740px;
-		height: 500px;
-	    padding: 10px;
-	    background: #white;
+      text-align: left;    /* Seiteninhalt wieder links ausrichten */
+//      margin: 0 auto;      /* standardkonforme horizontale Zentrierung */
+/*      width: 740px;
+    height: 500px;
+      padding: 10px;
+      background: #white;
 }
 
-	#Page img{
-		position:absolute; 
-		top:30px; 
-		left:280px; 
-		clip:rect(0px, 250px, 9	0px, 0px);
-	}
-	
-
-  div#Sales_spaces {
-	margin: 0 0 1em;
-    float: left; 
-	width: 390px;
-	padding: 0;
-	position:absolute;
-	top:220px;
-	left:260px;
-	clip:rect(0px, 350px, 250px, 0px);
-  }
+  #Page img{
+    position:absolute; 
+    top:30px; 
+    left:280px; 
+    clip:rect(0px, 250px, 9 0px, 0px);
+  
   
   div#Weddings {
     margin: 0 0 1em 390px;
     margin-right:-80px;
-	color: white;
+  color: white;
   }
   
-  p#Footer {
-    clear: both;
-    font-size: 0.83em;
-	color: #b9b9b9;
-    margin: 0 auto; 	
-    text-align: center;
-    background-color: white;
-	width: 740px;
-	padding: 10;
-  }
+ 
