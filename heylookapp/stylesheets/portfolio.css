@@ -78,14 +78,34 @@ body * {
   padding: 0 20px;
 }
 
-#sales_spaces {
+#a {
   float: left; 
   margin-left: 20px;
 }
 
-#weddings {
+#b {
   float:right; 
   margin-right:20px;
+}
+
+#c {
+  float:left; 
+  margin-left:40px;
+}
+
+#d {
+  float: left; 
+  margin-left: 20px;
+}
+
+#e {
+  float:right; 
+  margin-right:20px;
+}
+
+#f {
+  float:left; 
+  margin-left:40px;
 }
 
 #pic_sublines {
@@ -117,5 +137,32 @@ p#Footer a {
   text-decoration: none;
 }
 
+/*
+div#Wedding{
+ style="position:absolute; top:220px; right:130px; clip:rect(0px, 350px, 250px, 0px);"
+}
 
+
+#Page {
+      text-align: left;    /* Seiteninhalt wieder links ausrichten */
+//      margin: 0 auto;      /* standardkonforme horizontale Zentrierung */
+/*      width: 740px;
+    height: 500px;
+      padding: 10px;
+      background: #white;
+}
+
+  #Page img{
+    position:absolute; 
+    top:30px; 
+    left:280px; 
+    clip:rect(0px, 250px, 9 0px, 0px);
+  
+  
+  div#Weddings {
+    margin: 0 0 1em 390px;
+    margin-right:-80px;
+  color: white;
+  }
+  
  
