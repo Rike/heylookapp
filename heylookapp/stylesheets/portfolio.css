@@ -30,10 +30,6 @@ body * {
   margin-bottom:40px;
 }
 
-#sub_header {
-  clear: left;
-}
-
 #headernav {
   float: right;
   width: 30%;
@@ -78,22 +74,53 @@ body * {
   padding: 0 20px;
 }
 
+
+#menu_bar {
+  margin-left:-52px;
+  background-image:url(../images/menu_bar_2.gif);
+  margin-top:90px;
+  width:130%;
+  height:80px;
+  background-repeat:no-repeat;
+  
+}
+
+#menu_text {
+  float:left;
+  margin-left:-320px;
+  margin-top:20px;
+  letter-spacing:3px;
+}
+
+#menu_text a {
+  color:white;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top:20px;
+  margin-left:85px;
+}
+
+#content {
+  float:left;
+  
+}
+
 #a {
   float: left; 
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 #b {
-  float:right; 
-  margin-right:20px;
+  float:left; 
+  margin-left:30px;
 }
 
 #c {
   float:left; 
-  margin-left:40px;
+  margin-left:30px;
 }
 
-#d {
+/*#d {
   float: left; 
   margin-left: 20px;
 }
@@ -106,7 +133,7 @@ body * {
 #f {
   float:left; 
   margin-left:40px;
-}
+}*/
 
 #pic_sublines {
   clear: both;

@@ -6,8 +6,8 @@ html {
 
 body {
   color: black;
-  font-size: 100.01%;
-  font-family: Helvetica,Arial,sans-serif;
+  font-size: 110.01%;
+  font-family: 'Play','Yanone Kaffeesatz',Helvetica,Arial,sans-serif;
   position: relative;
   text-align: center;  /* Zentrierung im Internet Explorer */
   margin: 0;
@@ -37,16 +37,15 @@ body * {
 #headernav {
   float: right;
   width: 30%;
-  margin-top: 8px;
+  margin-top: -5px;
 }
 
 #language {
-  font-size: 1.3em;
-  font-family:Arial, Helvetica, Verdana, sans-serif;
+  font-size: 1.4em;
+  font-family:'Play','Yanone Kaffeesatz',Arial, Helvetica, Verdana, sans-serif;
   color: #00ccbb;
   text-align: right;
   font-weight:bold;
-  font-size: 130%;
 }
 #language a {
   color: #00ccbb;
@@ -56,16 +55,17 @@ body * {
 #sublines {
   width:100%;
   text-transform: uppercase;
-  margin-top: 20px;
+  margin-top:48px;
  
 }
 #sublines p {
   text-align: right;
-  font-size: 10px;
-  line-height:0.6em;
+  font-size: 14px;
+  line-height:0.8em;
 }
 #subline1 {
   color:#666666;
+  
 }
 #subline2 {
   color: #ff8888;
@@ -95,11 +95,13 @@ body * {
 #s_subline {
    text-transform: uppercase;
    color: #00ccbb;
+   margin-top:5px;
 }
 
 #w_subline {
    text-transform: uppercase;
    color: #ff8888;
+   margin-top:5px;
 }
 
 p#Footer {
