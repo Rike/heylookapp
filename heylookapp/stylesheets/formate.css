@@ -7,7 +7,7 @@ html {
 body {
   color: black;
   font-size: 110.01%;
-  font-family: 'Play','Yanone Kaffeesatz',Helvetica,Arial,sans-serif;
+  font-family: 'Francois One',Arial,Helvetica,sans-serif;
   position: relative;
   text-align: center;  /* Zentrierung im Internet Explorer */
   margin: 0;
@@ -17,13 +17,15 @@ body * {
 }
 
 #header {
-  font-size: 0.9em;
+  font-size: 1.0em;
   color: #ff8888;
+  font-family:'Francois One';
   padding-top: 20px;
   margin-bottom: 25px;
   margin-left:20px;
   margin-right:20px;
 }
+
 #header h1 {
   float: left;
   margin: 0;
@@ -32,37 +34,41 @@ body * {
 
 #sub_header {
   clear: left;
+  font-family:Arial;
+  font-size:0.9em;
+  
 }
 
 #headernav {
   float: right;
   width: 30%;
-  margin-top: -5px;
+  margin-top: -13px;
 }
 
 #language {
   font-size: 1.4em;
-  font-family:'Play','Yanone Kaffeesatz',Arial, Helvetica, Verdana, sans-serif;
+  font-family:'Francois One',Arial, Helvetica, Verdana, sans-serif;
   color: #00ccbb;
   text-align: right;
-  font-weight:bold;
 }
+
 #language a {
   color: #00ccbb;
   text-decoration: none; 
 }
 
 #sublines {
-  width:100%;
+  width:260px;
   text-transform: uppercase;
-  margin-top:48px;
- 
+  margin-top:8px; 
 }
+
 #sublines p {
   text-align: right;
   font-size: 14px;
-  line-height:0.8em;
+  line-height:0.5em;
 }
+
 #subline1 {
   color:#666666;
   
@@ -78,15 +84,63 @@ body * {
   padding: 0 20px;
 }
 
+#sales_spaces_text {
+  width:420px;
+  height:300px;
+  background-color:#66cccc;
+  text-decoration:none;
+  color:white;
+}
+#sales_spaces_text a {
+  padding: 20px;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  display: block;
+  height: 260px;
+  font-family:tahoma,Arial;
+}
+
 #sales_spaces {
   float: left; 
   margin-left: 20px;
+  font-family:'Francois One';
+}
+#sales_spaces_text {
+  display: none;
+}
+#sales_spaces:hover #Sales_spaces_text { display: block; }
+#sales_spaces:hover #Sales_spaces_img { display: none; }
+
+
+#weddings_text {
+  width:420px;
+  height:300px;
+  background-color:#ff9999;
+  text-decoration:none;
+  color:white;
+}
+#weddings_text a {
+  padding: 20px;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  display: block;
+  height: 260px;
+  font-family:tahoma,Arial;
 }
 
 #weddings {
   float:right; 
   margin-right:20px;
+  font-family:'Francois One';
 }
+
+#weddings_text {
+  display: none;
+}
+#weddings:hover #weddings_text { display: block; }
+#weddings:hover #weddings_img { display: none; }
 
 #pic_sublines {
   clear: both;
@@ -106,12 +160,13 @@ body * {
 
 p#Footer {
   clear: both;
-  font-size: 0.83em;
+  font-size: 0.73em;
   color: #b9b9b9;
   margin: 0 auto;   
   text-align: center;
   background-color: white;
   padding: 40px;  
+  font-family:arial;
 }
 
 p#Footer a {  

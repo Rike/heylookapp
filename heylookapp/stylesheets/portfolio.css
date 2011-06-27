@@ -7,7 +7,7 @@ html {
 body {
   color: black;
   font-size: 100.01%;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: 'Francois One',Arial,Helvetica,sans-serif;
   position: relative;
   text-align: center;  /* Zentrierung im Internet Explorer */
   margin: 0;
@@ -17,7 +17,8 @@ body * {
 }
 
 #header {
-  font-size: 0.9em;
+  font-size: 1.0em;
+  font-family:'Francois One';
   color: #ff8888;
   padding-top: 20px;
   margin-bottom: 25px;
@@ -30,38 +31,45 @@ body * {
   margin-bottom:40px;
 }
 
+#sub_header {
+  clear: left;
+  font-family:Arial;
+  
+}
+
 #headernav {
   float: right;
   width: 30%;
-  margin-top: 8px;
+  margin-top: -13px;
 }
 
 #language {
-  font-size: 1.3em;
-  font-family:Arial, Helvetica, Verdana, sans-serif;
+  font-size: 1.4em;
+  font-family:'Francois One',Arial, Helvetica, Verdana, sans-serif;
   color: #00ccbb;
-  text-align: right;
-  font-weight:bold;
-  font-size: 130%;
+  text-align: right; 
 }
+
 #language a {
   color: #00ccbb;
   text-decoration: none; 
 }
 
 #sublines {
-  width:100%;
+  width:260px;
   text-transform: uppercase;
-  margin-top: 20px;
- 
+  margin-top:8px; 
 }
+
 #sublines p {
   text-align: right;
-  font-size: 10px;
-  line-height:0.6em;
+  font-size: 14px;
+  line-height:0.5em;
 }
+
 #subline1 {
   color:#666666;
+  
 }
 #subline2 {
   color: #ff8888;
@@ -77,19 +85,20 @@ body * {
 
 #menu_bar {
   margin-left:-52px;
-  background-image:url(../images/menu_bar_2.gif);
-  margin-top:90px;
+  background-image:url(../images/buttons/menu_bar_2.gif);
+  margin-top:110px;
   width:130%;
   height:80px;
-  background-repeat:no-repeat;
-  
+  background-repeat:no-repeat;  
 }
 
 #menu_text {
   float:left;
-  margin-left:-320px;
-  margin-top:20px;
+  margin-left:20px;
+  margin-top:10px;
   letter-spacing:3px;
+  font-family:arial;
+  font-size:16px;
 }
 
 #menu_text a {
@@ -97,7 +106,7 @@ body * {
   text-transform: uppercase;
   text-decoration: none;
   margin-top:20px;
-  margin-left:85px;
+  margin-left:60px;
 }
 
 #content {
@@ -139,24 +148,33 @@ body * {
   clear: both;
 }
 
-#s_subline {
+#a_subline {
    text-transform: uppercase;
-   color: #00ccbb;
+   color: #666666;
+   margin-top:0px;
 }
 
-#w_subline {
+#b_subline {
    text-transform: uppercase;
-   color: #ff8888;
+   color: #666666;
+   margin-top:0px;
+}
+
+#c_subline {
+   text-transform: uppercase;
+   color: #666666;
+   margin-top:0px;
 }
 
 p#Footer {
   clear: both;
-  font-size: 0.83em;
+  font-size: 0.73em;
   color: #b9b9b9;
   margin: 0 auto;   
   text-align: center;
   background-color: white;
   padding: 40px;  
+  font-family:arial;
 }
 
 p#Footer a {  
