@@ -42,18 +42,18 @@ body * {
 #headernav {
   float: right;
   width: 30%;
-  margin-top: -13px;
+  margin-top: -8px;
 }
 
 #language {
   font-size: 1.4em;
   font-family:'Francois One',Arial, Helvetica, Verdana, sans-serif;
-  color: #00ccbb;
+  color: #FFcccc;
   text-align: right;
 }
 
 #language a {
-  color: #00ccbb;
+  color: #FFcccc;
   text-decoration: none; 
 }
 
@@ -66,7 +66,7 @@ body * {
 #sublines p {
   text-align: right;
   font-size: 14px;
-  line-height:0.5em;
+  line-height:0.2em;
 }
 
 #subline1 {

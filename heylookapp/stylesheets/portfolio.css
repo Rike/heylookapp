@@ -6,7 +6,7 @@ html {
 
 body {
   color: black;
-  font-size: 100.01%;
+  font-size: 110.01%;
   font-family: 'Francois One',Arial,Helvetica,sans-serif;
   position: relative;
   text-align: center;  /* Zentrierung im Internet Explorer */
@@ -40,18 +40,18 @@ body * {
 #headernav {
   float: right;
   width: 30%;
-  margin-top: -13px;
+  margin-top: -8px;
 }
 
 #language {
   font-size: 1.4em;
   font-family:'Francois One',Arial, Helvetica, Verdana, sans-serif;
-  color: #00ccbb;
+  color: #FFcccc;
   text-align: right; 
 }
 
 #language a {
-  color: #00ccbb;
+  color: #FFcccc;
   text-decoration: none; 
 }
 
@@ -64,7 +64,7 @@ body * {
 #sublines p {
   text-align: right;
   font-size: 14px;
-  line-height:0.5em;
+  line-height:0.2em;
 }
 
 #subline1 {
@@ -109,6 +109,13 @@ body * {
   margin-left:60px;
 }
 
+#menu_text a:hover, #menu_text span{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#bbffdd;
+  margin-left:60px;
+}
+
 #content {
   float:left;
   
@@ -129,42 +136,67 @@ body * {
   margin-left:30px;
 }
 
-/*#d {
+#d {
   float: left; 
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 #e {
-  float:right; 
-  margin-right:20px;
+  float:left; 
+  margin-left:30px;
 }
 
 #f {
   float:left; 
-  margin-left:40px;
-}*/
+  margin-left:30px;
+}
 
 #pic_sublines {
   clear: both;
+  font-size:10px;
 }
 
 #a_subline {
    text-transform: uppercase;
    color: #666666;
-   margin-top:0px;
+   margin-top:-5px;
+   font-size:12px;
 }
 
 #b_subline {
    text-transform: uppercase;
    color: #666666;
-   margin-top:0px;
+   margin-top:-5px;
+   font-size:12px;
 }
 
 #c_subline {
    text-transform: uppercase;
    color: #666666;
-   margin-top:0px;
+   margin-top:-5px;
+   font-size:12px;
 }
+
+#d_subline {
+   text-transform: uppercase;
+   color: #666666;
+   margin-top:-5px;
+   font-size:12px;
+}
+
+#e_subline {
+   text-transform: uppercase;
+   color: #666666;
+   margin-top:-5px;
+   font-size:12px;
+}
+
+#f_subline {
+   text-transform: uppercase;
+   color: #666666;
+   margin-top:-5px;
+   font-size:14px;
+} 
 
 p#Footer {
   clear: both;
@@ -181,33 +213,3 @@ p#Footer a {
   color: #b9b9b9;
   text-decoration: none;
 }
-
-/*
-div#Wedding{
- style="position:absolute; top:220px; right:130px; clip:rect(0px, 350px, 250px, 0px);"
-}
-
-
-#Page {
-      text-align: left;    /* Seiteninhalt wieder links ausrichten */
-//      margin: 0 auto;      /* standardkonforme horizontale Zentrierung */
-/*      width: 740px;
-    height: 500px;
-      padding: 10px;
-      background: #white;
-}
-
-  #Page img{
-    position:absolute; 
-    top:30px; 
-    left:280px; 
-    clip:rect(0px, 250px, 9 0px, 0px);
-  
-  
-  div#Weddings {
-    margin: 0 0 1em 390px;
-    margin-right:-80px;
-  color: white;
-  }
-  
- 
